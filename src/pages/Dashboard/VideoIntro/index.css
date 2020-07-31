@@ -1,0 +1,143 @@
+.video_intro h2 {
+    font-size: 30px;
+    font-weight: 1200;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-stretch: extra-expanded;
+    letter-spacing: 5px;
+}
+
+.container {
+    display: flex;
+}
+
+.intro_subject {
+    width: fit-content;
+    height: auto;
+    z-index: 200;
+}
+
+.intro_subject>ul {
+    margin-top: 0px;
+}
+
+.subject_selector {
+    list-style: none;
+    width: 150px;
+    height: 36px;
+}
+
+.subject_selector button {
+    border-bottom-left-radius: 8px;
+    padding-left: 11px;
+    border: solid 1px #ccccccd0;
+    border-right: none;
+    width: 100%;
+    height: 100%;
+    text-align: start;
+    outline: none;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.subject_selector button:hover {
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.intro_content {
+    width: 80%;
+    height: 650px;
+    border: solid 1px #ccccccd0;
+    /* border-left: none; */
+    background-color: #ffffff;
+    display: flex;
+}
+
+.intro_text {
+    /* height: inherit; */
+    width: 30%;
+    padding-top: 5vh;
+    padding-left: 5vw;
+    padding-right: 1vw;
+    /* height: 500px; */
+}
+
+.intro_text h2 {
+    margin-top: 30px;
+    text-align: start;
+}
+
+.intro_text p {
+    width: 100%;
+    text-align: start;
+    /* display: block; */
+    display: -webkit-box;
+    -webkit-line-clamp: 20;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    /* text-overflow: ellipsis; */
+}
+
+.inner_video {
+    width: 70%;
+    height: 100%;
+    display: flex;
+}
+
+.video_content {
+    height: 25vw;
+    width: 80%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .intro_content {
+        width: 70%;
+        /* height: 650px; */
+        border: solid 1px #ccccccd0;
+        /* border-left: none; */
+        background-color: #ffffff;
+        display: block;
+    }
+
+    .intro_text {
+        /* height: inherit; */
+        width: 80%;
+        padding-top: 5vh;
+        padding-left: 5vw;
+        padding-right: 1vw;
+        /* height: 42%; */
+
+    }
+
+    .intro_text h2 {
+        margin-top: 10px;
+        text-align: start;
+    }
+
+    .intro_text p {
+        width: 100%;
+        text-align: start;
+        /* display: block; */
+        display: -webkit-box;
+        -webkit-line-clamp: 7;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        /* text-overflow: ellipsis; */
+    }
+
+    .inner_video {
+        width: 100%;
+        height: 50%;
+        display: flex;
+    }
+
+    .video_content {
+        height: 25vw;
+        width: 80%;
+        margin: auto;
+    }
+
+}

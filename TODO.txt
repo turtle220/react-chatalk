@@ -1,0 +1,8 @@
+- 20200724
+    DONE --> Will you also have the ability to start on the Group List and User List API on this screen:
+    DONE --> If we are on the user tab (screenshot), then display list of groups on left, and list of users on right table. For now don't worry about the mapping/filtering, just list all.
+    DONE --> If we click on sub groups tab, display the same form as in the Create new Group form, but allow it to edit and save new values for Description and Tags
+            Let me know the relation with group and tag.
+    OK --> Roles tab can be left blank for now
+    ?? --> And then the 2 buttons: Create New Group and Create New User: those forms should like to back-end too.
+    But I need the table, tiles/tabs, filters, and tree list to all use fuse theme components, these still look like the old template

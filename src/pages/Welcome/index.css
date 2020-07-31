@@ -1,0 +1,48 @@
+.welcome {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f7f9;
+}
+
+.inner_welcome {
+    height: auto;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.group_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.group_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: solid 2px #00000080;
+}
+
+.group {
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+h2 {
+    margin-top: 70px;
+}
+
+.group_btn img {
+    width: 50px;
+}

@@ -1,0 +1,83 @@
+.patient_block {
+    width: 400px;
+    height: 250px;
+    background-color: #ffffff;
+    color: rgba(0, 0, 0, 0.64);
+    position: relative;
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-radius: 6px;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.block_header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block_header span {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.setting_icon {
+    color: #bbbbbb;
+}
+
+.setting_icon:hover {
+    cursor: pointer;
+}
+
+.block_title {
+    font-size: 20px;
+}
+
+.counter {
+    margin-top: 30px;
+}
+
+.counter > div {
+    display: inline-block;
+    width: 40%;
+}
+
+.counter p {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+
+.number {
+    font-size: 30px;
+}
+
+.today {
+    border-right: solid 3px #bbbbbb;
+}
+
+.block_btn {
+    border: none;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: #192d3e;
+    color: #ffffff;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 15px;
+    outline: none !important;
+}
+
+.block_btn:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.btn_div {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}

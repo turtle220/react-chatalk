@@ -1,0 +1,22 @@
+.footer {
+    background-color: #00000010;
+    position: absolute;
+    bottom: 0px;
+    height: 30px;
+    /* box-shadow: 3px 0px 5px black; */
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    justify-content: center;
+    color: #333333 !important;
+    font-size: 14px;
+}
+
+span.menu {
+    margin-top: 5px;
+    vertical-align: middle !important;
+}
+
+.corpspan {
+    font-weight: 600;
+}

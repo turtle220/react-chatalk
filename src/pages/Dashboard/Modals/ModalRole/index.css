@@ -1,0 +1,42 @@
+.role_modal {
+    width: 850px;
+    height: 580px;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+}
+
+.btn_container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.btn_container button {
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 29px;
+}
+.group-box {
+    position: relative;
+    border: solid 1px #b1b1b1;
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    top: -18px;
+    margin-left: 8px;
+    margin-top: 2px;
+}
+.group-label {
+    margin-top: 8px;
+    margin-left: 7px;
+    position: relative !important;
+    background-color: #f2f2f2;
+    display: inline-block !important;
+}
+#roletable {
+    height: 220px !important;
+}

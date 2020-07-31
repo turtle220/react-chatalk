@@ -1,0 +1,105 @@
+.dashheader {
+    height: 70px;
+    width: 100%;
+    text-align: end;
+    background-color: #192d3e;
+    box-shadow: 0px 3px 3px -2px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+}
+
+.dashheader div {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.dash_link {
+    padding: 5px;
+    margin: auto auto;
+}
+
+.common_links div {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 20px;
+    margin-left: 3px;
+    margin-right: 3px;
+    display: inline-flex;
+    padding: auto;
+}
+
+.nav_icon {
+    vertical-align: middle;
+    color: #fff;
+}
+
+.common_links div:hover {
+    cursor: pointer;
+    background-color: #cccccc20;
+}
+
+.common_links div:hover .nav_icon {
+    color: rgb(97, 218, 251);
+}
+
+.user_avatar {
+    width: auto;
+    padding-right: 10px;
+    padding-top: 10px;
+    text-align: end;
+}
+
+.hello_para {
+    width: auto;
+    color: #fff;
+    position: relative;
+    vertical-align: middle;
+    width: 60px;
+    height: 40px;
+}
+
+.hello_para p {
+    position: absolute;
+    bottom: -10px;
+}
+
+.avatar_icon {
+    width: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.avatar_icon:hover {
+    cursor: pointer;
+}
+
+.icon1 {
+    color: #ffffff40;
+    font-size: 50px !important;
+    float: right;
+}
+
+.inner_popover li {
+    list-style: none;
+    width: 150px;
+    height: 40px;
+}
+
+.inner_popover {
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+}
+
+.inner_popover button {
+    border: none;
+    background-color: inherit;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    font-size: 14px;
+}
+
+.inner_popover button:hover {
+    cursor: pointer;
+    background-color: #eeeeee;
+}

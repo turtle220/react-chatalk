@@ -1,0 +1,46 @@
+.navbar {
+    position: fixed;
+    top: 0px;
+    height: 75px;
+    box-shadow: 3px 0px 5px black;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 210px;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.54);
+    margin-top: -1vh;
+}
+
+.nav_link {
+    margin-left: 1.5vw;
+    margin-right: 0.5vw;
+    font-size: 13px !important;
+}
+
+.link:hover,
+.link:hover span {
+    color: rgb(97, 218, 251) !important;
+    text-decoration: none;
+}
+
+.icon {
+    vertical-align: middle;
+}
+
+.navigation {
+    margin-top: 25px;
+    margin-right: 3vw;
+}
